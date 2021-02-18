@@ -1,0 +1,27 @@
+{
+  "name": "team-profile",
+  "version": "1.0.0",
+  "description": "A Node/Inquirer application, used to dynamically create a visual \"team profile\" webpage based on user input.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsign/team-profile.git"
+  },
+  "keywords": [
+    "node",
+    "inquirer",
+    "jest"
+  ],
+  "author": "katsign",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katsign/team-profile/issues"
+  },
+  "homepage": "https://github.com/katsign/team-profile#readme"
+}
