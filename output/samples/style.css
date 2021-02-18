@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  background-color: whitesmoke!important;
+  background-color: whitesmoke !important;
 }
 
 p,
@@ -28,14 +28,14 @@ h6 {
   background-color: var(--dark) !important;
 }
 .bg-primary {
-    background-color: var(--primary) !important;
+  background-color: var(--primary) !important;
 }
 .bg-secondary {
-    background-color: var(--secondary) !important;
+  background-color: var(--secondary) !important;
 }
 
 .navbar-brand {
-    color: white!important;
+  color: white !important;
 }
 
 /* Icon Styling */
@@ -44,44 +44,19 @@ h6 {
   vertical-align: top;
 }
 .material-icons.md-32 {
-    font-size: 32px;
+  font-size: 32px;
 }
-  .material-icons.md-light {
-    color: rgba(255, 255, 255, 1);
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
 }
 
 .d-flex {
-    flex-flow: wrap;
-  }
-  
-/* Card Styling */
+  flex-flow: wrap;
+}
+
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
   min-width: 20rem;
-  word-wrap: break-word;
   background-color: transparent;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-.card-body {
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
-}
-
-.card-title {
-  margin-bottom: 0.75rem;
-}
-
-.card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .list-group {
@@ -99,16 +74,28 @@ h6 {
 
 /* Role Card Styling */
 #roleM {
-    background: rgb(230,230,250);
-    background: linear-gradient(360deg, rgba(230,230,250,1) 28%, rgba(216,191,216,1) 100%);
+  background: rgb(230, 230, 250);
+  background: linear-gradient(
+    360deg,
+    rgba(230, 230, 250, 1) 28%,
+    rgba(216, 191, 216, 1) 100%
+  );
 }
 #roleE {
-    background: rgb(195,231,195);
-    background: linear-gradient(360deg, rgba(195,231,195,1) 28%, rgba(143,188,143,1) 100%);
+  background: rgb(195, 231, 195);
+  background: linear-gradient(
+    360deg,
+    rgba(195, 231, 195, 1) 28%,
+    rgba(143, 188, 143, 1) 100%
+  );
 }
 #roleI {
-    background: rgb(255,218,185);
-    background: linear-gradient(360deg, rgba(255,218,185,1) 0%, rgba(255,160,122,1) 100%);
+  background: rgb(255, 218, 185);
+  background: linear-gradient(
+    360deg,
+    rgba(255, 218, 185, 1) 0%,
+    rgba(255, 160, 122, 1) 100%
+  );
 }
 
 /* Media Queries */
