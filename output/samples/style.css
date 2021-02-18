@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white !important;
+}
+
+:root {
+  --light: thistle;
+  --dark: plum;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.material-icons {
+  display: inline-flex;
+  vertical-align: top;
+}
+/* Card Styling */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: linen;
+  border: 2px solid peachpuff;
+}
+
+/* Role Card Styling */
+#roleM {
+  background: rgb(240, 255, 240);
+  background: radial-gradient(
+    circle,
+    rgba(240, 255, 240, 1) 0%,
+    rgba(107, 142, 35, 1) 100%
+  );
+}
+#roleE {
+  background: rgb(230, 230, 250);
+  background: radial-gradient(
+    circle,
+    rgba(230, 230, 250, 1) 0%,
+    rgba(221, 160, 221, 1) 100%
+  );
+}
+#roleI {
+  background: rgb(255, 218, 185);
+  background: radial-gradient(
+    circle,
+    rgba(255, 218, 185, 1) 0%,
+    rgba(255, 165, 0, 1) 100%
+  );
+}
+
+/* Media Queries */
+@media (max-width: 690px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
