@@ -25,10 +25,22 @@ h6 {
   background-color: var(--dark) !important;
 }
 
+.navbar-brand {
+    color: white!important;
+}
+
+/* Icon Styling */
 .material-icons {
   display: inline-flex;
   vertical-align: top;
 }
+.material-icons.md-32 {
+    font-size: 32px;
+}
+  .material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
 /* Card Styling */
 .card {
   position: relative;
