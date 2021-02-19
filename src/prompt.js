@@ -27,19 +27,19 @@ function nextEmployee() {
             case 'Engineer':
                 prompt([
                     {
-                        message: `${Chalk.black.bgYellow('Enter the name of the engineer.')}`,
+                        message: `${Chalk.black.bgGreen('Enter the name of the engineer.')}`,
                         name: 'engineerName',
                     },
                     {
-                        message: `${Chalk.black.bgYellow('Enter the ID number of the engineer.')}`,
+                        message: `${Chalk.black.bgGreen('Enter the ID number of the engineer.')}`,
                         name: 'engineerID',
                         },
                     {
-                        message: `${Chalk.black.bgYellow('Enter the email address of the engineer.')}`,
+                        message: `${Chalk.black.bgGreen('Enter the email address of the engineer.')}`,
                         name: 'engineerEmail',
                     },
                     {
-                        message: `${Chalk.black.bgYellow('Enter the Github username of the engineer.')}`,
+                        message: `${Chalk.black.bgGreen('Enter the Github username of the engineer.')}`,
                         name: 'engineerGH',
                     },
                 ]).then((data) => {
@@ -54,6 +54,33 @@ function nextEmployee() {
                 });
                 break;
                 case 'Intern':
+                    prompt([
+                        {
+                            message: `${Chalk.black.bgYellow('Enter the name of the intern.')}`,
+                            name: 'internName',
+                        },
+                        {
+                            message: `${Chalk.black.bgYellow('Enter the ID number of the intern.')}`,
+                            name: 'internID',
+                            },
+                        {
+                            message: `${Chalk.black.bgYellow('Enter the email address of the intern.')}`,
+                            name: 'internEmail',
+                        },
+                        {
+                            message: `${Chalk.black.bgYellow('Enter the school of the intern.')}`,
+                            name: 'internSchool',
+                        },
+                    ]).then((data) => {
+                        const newIntern = new Intern(
+                            data.internName,
+                            data.internID,
+                            data.internEmail,
+                            data.internSchool
+                        );
+                        team.push(iHTML(newIntern));
+                        nextEmployee();
+                    });
         }
     })
 }
