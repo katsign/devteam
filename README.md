@@ -1,7 +1,7 @@
 # DevTeam Profile Generator :email:
 ![GitHub license](https://img.shields.io/badge/License-MIT-orange)
 
-### A Node/Inquirer application, used to dynamically create a visual "team profile" webpage based on user input.
+### This commandline application generates a styled webpage containing your development team's contact info and professional roles.
 
 ## *Table of Contents*
 
