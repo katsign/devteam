@@ -16,15 +16,15 @@ function nextEmployee() {
         {
         type: 'list',
         message: `${Chalk.black.bgCyan(
-            'Would you like to add another employee?'
+            'Add another employee?'
         )}`,
-        choices: ['Engineer', 'Intern', new inquirer.Separator(), 'No, finish.'],
+        choices: ['Add Engineer', 'Add Intern', new inquirer.Separator(), 'No, finish.'],
         name:'newEmployee',
         },
     ])
     .then((data) => {
         switch (data.newEmployee) {
-            case 'Engineer':
+            case 'Add Engineer':
                 prompt([
                     {
                         message: `${Chalk.black.bgGreen('Enter the name of the engineer.')}`,
@@ -53,7 +53,7 @@ function nextEmployee() {
                     nextEmployee();
                 });
                 break;
-                case 'Intern':
+                case 'Add Intern':
                     prompt([
                         {
                             message: `${Chalk.black.bgYellow('Enter the name of the intern.')}`,
