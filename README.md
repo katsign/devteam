@@ -23,7 +23,8 @@ INSTALL
 USAGE
 
 ## *Screenshots*
-![alt text](path)
+![Screenshot of DevTeam Mock Profile](./output/samples/screenshots/ss1.png)
+![Screenshot of DevTeam Command Line Prompt Questions](./output/samples/screenshots/ss2.png)
 
 ## *Contributing*
 This project is open source so feel free to take it and run with it.
