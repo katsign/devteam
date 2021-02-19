@@ -2,7 +2,7 @@ const Engineer = require('../lib/Engineer'),
   Intern = require('../lib/Intern'),
   Manager = require('../lib/Manager'),
   { mHTML, eHTML, iHTML } = require('./roles'),
-  generateHTML = require('./html'),
+  genHTML = require('./html'),
   css = require('./css'),
   Chalk = require("chalk"),
   inquirer = require("inquirer"),
@@ -81,6 +81,19 @@ function nextEmployee() {
                         team.push(iHTML(newIntern));
                         nextEmployee();
                     });
+                    break;
+                    case 'No, finish.':
+                        let html = genHTML(team);
+                        fs.writeFileSync('./output/index.html', html, 'utf8');
+                        fs.writeFileSync('./output/style.css', html, 'utf8');
+                        return console.log(
+                            Chalk.black.bgCyan('Your DevTeam profile is ready. Navigate to the /output folder.')
+                        );
         }
     })
+    .catch((err) => {
+        throw new Error(
+            `Something went wrong.\n${err}`
+        );
+    });
 }
