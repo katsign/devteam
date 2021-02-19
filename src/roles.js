@@ -11,7 +11,7 @@ function genIntern(intern) {
 }
 
 module.exports = {
-    genManager,
-    genEngineer,
-    genIntern
+    mHTML: genManager,
+    eHTML: genEngineer,
+    iHTML: genIntern
 }
