@@ -4,9 +4,56 @@ const Engineer = require('../lib/Engineer'),
   { mHTML, eHTML, iHTML } = require('./roles'),
   generateHTML = require('./html'),
   css = require('./css'),
-  chalk = require("chalk"),
+  Chalk = require("chalk"),
   inquirer = require("inquirer"),
   prompt = inquirer.createPromptModule(),
   fs = require("fs");
 
+let team = [];
 
+function nextEmployee() {
+    prompt([
+        {
+        type: 'list',
+        message: `${Chalk.black.bgCyan(
+            'Would you like to add another employee?'
+        )}`,
+        choices: ['Engineer', 'Intern', new inquirer.Separator(), 'No, finish.'],
+        name:'newEmployee',
+        },
+    ])
+    .then((data) => {
+        switch (data.addEmployee) {
+            case 'Engineer':
+                prompt([
+                    {
+                        message: `${Chalk.black.bgYellow('Enter the name of the engineer.')}`,
+                        name: 'engineerName',
+                    },
+                    {
+                        message: `${Chalk.black.bgYellow('Enter the ID number of the engineer.')}`,
+                        name: 'engineerID',
+                        },
+                    {
+                        message: `${Chalk.black.bgYellow('Enter the email address of the engineer.')}`,
+                        name: 'engineerEmail',
+                    },
+                    {
+                        message: `${Chalk.black.bgYellow('Enter the Github username of the engineer.')}`,
+                        name: 'engineerGH',
+                    },
+                ]).then((data) => {
+                    const newEngineer = new Engineer(
+                        data.engineerName,
+                        data.engineerID,
+                        data.engineerEmail,
+                        data.engineerGH
+                    );
+                    team.push(eHTML(newEngineer));
+                    nextEmployee();
+                });
+                break;
+                case 'Intern':
+        }
+    })
+}
