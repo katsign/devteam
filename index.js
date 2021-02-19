@@ -1,24 +1,24 @@
 const inquirer = require('inquirer');
-const chalk = require('chalk');
-const init = require('./src/prompts');
+const Chalk = require('chalk');
+const init = require('./src/prompt');
 
 const prompt = inquirer.createPromptModule();
 
 prompt([
     {
-      type: 'list',
-      message: `${chalk.black.bgCyan}(
-        'Welcome. Should we start building your DevTeam?'
-      )}`,
-      choices: ['Start', 'Not Ready'],
-      name: "start",
+        type: 'list',
+        message: `${Chalk.black.bgCyan(
+            'Welcome. Select continue to start building your DevTeam.'
+        )}`,
+        choices: ['Continue', 'Quit'],
+        name: 'start',
     },
-  ]).then((response) => {
+]).then((response) => {
     switch (response.start) {
-      case 'Start':
-        init();
-        break;
-      case 'Not Ready':
-        return console.log(chalk.black.bgRed('Restart application and try again.'));
+        case 'Continue':
+            init();
+            break;
+        case 'Quit':
+            return console.log('Restart the application and try again.');
     }
-  });
+});
