@@ -97,3 +97,40 @@ function nextEmployee() {
         );
     });
 }
+//This one gets called first from index.js and uses the next employee function above until the finish case is chosen.
+function init() {
+    prompt([
+        {
+            message: `${Chalk.bgMagenta('Enter the name of the team manager.')}`,
+            name: 'managerName',
+        },
+        {
+            message: `${Chalk.bgMagenta('Enter the ID number of the team manager.')}`,
+            name: 'managerID',
+        },
+        {
+            message: `${Chalk.bgMagenta('Enter the email address of the team manager.')}`,
+            name: 'managerEmail',
+        },
+        {
+            message: `${Chalk.bgMagenta('Enter the office number of the team manager.')}`,
+            name: 'managerOffice',
+        },
+    ])
+    .then((data) => {
+        const manager = new Manager(
+            data.managerName,
+            data.managerID,
+            data.managerEmail,
+            data.managerOffice
+        );
+        team.push(mHTML(manager));
+
+        nextEmployee();
+    })
+    .catch((err) => {
+        throw new Error(
+            `Something went wrong.\n${err}`
+        );
+    });
+}
