@@ -4,10 +4,10 @@ const Engineer = require('../lib/Engineer'),
   { mHTML, eHTML, iHTML } = require('./roles'),
   genHTML = require('./html'),
   css = require('./css'),
-  Chalk = require("chalk"),
-  inquirer = require("inquirer"),
+  Chalk = require('chalk'),
+  inquirer = require('inquirer'),
   prompt = inquirer.createPromptModule(),
-  fs = require("fs");
+  fs = require('fs');
 
 let team = [];
 
@@ -23,7 +23,7 @@ function nextEmployee() {
         },
     ])
     .then((data) => {
-        switch (data.addEmployee) {
+        switch (data.newEmployee) {
             case 'Engineer':
                 prompt([
                     {
@@ -85,7 +85,7 @@ function nextEmployee() {
                     case 'No, finish.':
                         let html = genHTML(team);
                         fs.writeFileSync('./output/index.html', html, 'utf8');
-                        fs.writeFileSync('./output/style.css', html, 'utf8');
+                        fs.writeFileSync('./output/style.css', css, 'utf8');
                         return console.log(
                             Chalk.black.bgCyan('Your DevTeam profile is ready. Navigate to the /output folder.')
                         );
