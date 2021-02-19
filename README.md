@@ -24,6 +24,10 @@ USAGE
 
 ## *Screenshots*
 ![Screenshot of DevTeam Mock Profile](./dist/samples/screenshots/ss1.png)
+Responsive Flex Breakpoint            |  Queried Flex-Direction Switch
+:-------------------------:|:-------------------------:
+![Screenshot of DevTeam Mock Profile](./dist/samples/screenshots/ss3.png)  |  ![Screenshot of DevTeam Mock Profile](./dist/samples/screenshots/ss4.png)
+
 ![Screenshot of DevTeam Command Line Prompt Questions](./dist/samples/screenshots/ss2.png)
 
 ## *Contributing*
