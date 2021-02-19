@@ -30,6 +30,7 @@ function generateHTML(team) {
         <main class="container">
             <div class="d-flex align-items-center justify-content-around">
                   <!--Cards Populate-->
+                  ${team.join('')}
         </main>
     
         <!--Footer Content-->
