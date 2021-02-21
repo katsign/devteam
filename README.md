@@ -42,7 +42,7 @@ Contributing is welcome, raise issues and submit through pull requests.
 
 ## *Tests*
 The tests in this repository are run through Jest (listed as a dev dependency in the JSON package). For the parent Employee class constructor and the three subclasses, I wrote some simple TDD-inspired functions to be run with the command `npm run test` in the terminal.
-![Screenshot of Jest PASS notices, 7 out of 7](/screenshots/jest.png)
+![Screenshot of Jest PASS notices, 7 out of 7](/screenshots/jest.PNG)
 ### View these tests passing in real time in [this video](path).
 
 ## *Questions?*
