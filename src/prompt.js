@@ -101,19 +101,19 @@ function nextEmployee() {
 function init() {
     prompt([
         {
-            message: `${Chalk.bgMagenta('Enter the name of the team manager.')}`,
+            message: `${Chalk.black.bgMagenta('Enter the name of the team manager.')}`,
             name: 'managerName',
         },
         {
-            message: `${Chalk.bgMagenta('Enter the ID number of the team manager.')}`,
+            message: `${Chalk.black.bgMagenta('Enter the ID number of the team manager.')}`,
             name: 'managerID',
         },
         {
-            message: `${Chalk.bgMagenta('Enter the email address of the team manager.')}`,
+            message: `${Chalk.black.bgMagenta('Enter the email address of the team manager.')}`,
             name: 'managerEmail',
         },
         {
-            message: `${Chalk.bgMagenta('Enter the office number of the team manager.')}`,
+            message: `${Chalk.black.bgMagenta('Enter the office number of the team manager.')}`,
             name: 'managerOffice',
         },
     ])
