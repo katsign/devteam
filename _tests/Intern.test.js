@@ -14,5 +14,4 @@ describe("Intern", () => {
         expect("school" in obj).toEqual(true);
       });
     });
-    
   });
