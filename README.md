@@ -1,7 +1,7 @@
 # DevTeam Profile Generator :email::woman:
 ![GitHub license](https://img.shields.io/badge/License-MIT-orange)
 
-### This commandline application generates a styled webpage containing your development team's contact info and professional roles.
+### This command line application generates a styled webpage containing your development team's contact info and professional roles.
 
 ## *Table of Contents*
 
