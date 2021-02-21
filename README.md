@@ -14,7 +14,7 @@
 - [Questions](#questions)
 
 ## *Description*
-Keep track of your development team's contact information using this simple color-coded interface, no coding involved. Simply invoke the app on the command line and plug in your information through a series of prompts — behind the scenes, DevTeam whips up a styled HTML page ready for deployment to your team. You'll need to follow the installation steps below to get going.
+Keep track of your development team's contact information using this clean color-coded interface, no coding involved. Simply invoke the app on the command line and plug in your information through a series of prompts — behind the scenes, DevTeam whips up a styled HTML page ready for deployment to your team. You'll need to follow the installation steps below to get going.
 
 ## *Installation*
 ### Navigate into the repository folder on your local machine and open the built-in terminal. You will need Node.js installed to run this application.
@@ -23,7 +23,7 @@ Keep track of your development team's contact information using this simple colo
 
 
 ## *Usage*
-### This video demonstrates the full functionality and testing of this app: [link](path)
+### :movie_camera: [This video](path) demonstrates the full functionality and testing of this app.
 - The application begins with a Start menu. Select `'Continue'` to trigger the Inquirer prompts and begin adding the information for the `Team Manager`.
 - You will then be prompted to `'Add another employee?'` to which you can either choose to `'Add Engineer'` or `'Add Intern,'` or opt to `'No, finish.'`
 - When you are finished adding employees and choose `'No, finish.'` a message displays in the command line pointing you to the `/dist` folder.
@@ -41,9 +41,12 @@ Responsive Flex Breakpoint            |  Queried Flex-Direction Switch
 Contributing is welcome, raise issues and submit through pull requests.
 
 ## *Tests*
-The tests in this repository are run through Jest (listed as a dev dependency in the JSON package). For the parent Employee class constructor and the three subclasses, I wrote some simple TDD-inspired functions to be run with the command `npm run test` in the terminal.
+
+The tests in this repository are run through Jest, a dev dependency included in the JSON package. For the parent Employee constructor and the three subclasses, I wrote some simple TDD-inspired functions.
+- Run these tests with the command `npm run test` in the `/_tests` folder.
+
 ![Screenshot of Jest PASS notices, 7 out of 7](/screenshots/jest.PNG)
-### View these tests passing in real time in [this video](path).
+### :movie_camera: View these tests passing in real time in [this video](path).
 
 ## *Questions?*
 - My Profile: [katsign](https://github.com/katsign)
