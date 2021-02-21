@@ -23,7 +23,7 @@ Keep track of your development team's contact information using this clean color
 
 
 ## *Usage*
-### :movie_camera: [This video](path) demonstrates the full functionality and testing of this app.
+### :movie_camera: [This video](https://vimeo.com/515063802) demonstrates the full functionality and testing of this app.
 - The application begins with a Start menu. Select `'Continue'` to trigger the Inquirer prompts and begin adding the information for the `Team Manager`.
 - You will then be prompted to `'Add another employee?'` to which you can either choose to `'Add Engineer'` or `'Add Intern,'` or opt to `'No, finish.'`
 - When you are finished adding employees and choose `'No, finish.'` a message displays in the command line pointing you to the `/dist` folder.
@@ -46,7 +46,7 @@ The tests in this repository are run through Jest, a dev dependency included in 
 - Run these tests with the command `npm run test` in the `/_tests` folder.
 
 ![Screenshot of Jest PASS notices, 7 out of 7](/screenshots/jest.PNG)
-### :movie_camera: View these tests passing in real time in [this video](path).
+### :movie_camera: View these tests passing in real time in [this video](https://vimeo.com/515063802).
 
 ## *Questions?*
 - My Profile: [katsign](https://github.com/katsign)
