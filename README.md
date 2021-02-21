@@ -1,4 +1,4 @@
-# DevTeam Profile Generator :email:
+# DevTeam Profile Generator :email::woman:
 ![GitHub license](https://img.shields.io/badge/License-MIT-orange)
 
 ### This commandline application generates a styled webpage containing your development team's contact info and professional roles.
@@ -41,7 +41,9 @@ Responsive Flex Breakpoint            |  Queried Flex-Direction Switch
 Contributing is welcome, raise issues and submit through pull requests.
 
 ## *Tests*
-ADD TEST SS
+The tests in this repository are run through Jest (listed as a dev dependency in the JSON package). For the parent Employee class constructor and the three subclasses, I wrote some simple TDD-inspired functions to be run with the command `npm run test` in the terminal.
+![Screenshot of Jest PASS notices, 7 out of 7](./screenshots/jest.png)
+### View these tests passing in real time in [this video](path).
 
 ## *Questions?*
 - My Profile: [katsign](https://github.com/katsign)
