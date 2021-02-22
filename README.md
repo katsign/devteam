@@ -26,7 +26,7 @@ Keep track of your development team's contact information using this clean color
 ### :movie_camera: [This video](https://vimeo.com/515063802) demonstrates the full functionality and testing of this app.
 - The application begins with a Start menu. Select `'Continue'` to trigger the Inquirer prompts and begin adding the information for the `Team Manager`.
 - You will then be prompted to `'Add another employee?'` to which you can either choose to `'Add Engineer'` or `'Add Intern,'` or opt to `'No, finish.'`
-- When you are finished adding employees and choose `'No, finish.'` a message displays in the command line pointing you to the `/dist` folder.
+- When you are finished adding employees and choose `'No, finish.'` a message displays in the command line pointing you to the `/output` folder.
 - This is where your output `index.html` and `style.css` files will be! :star:
 
 ## *Screenshots*
