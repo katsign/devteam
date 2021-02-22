@@ -30,12 +30,12 @@ Keep track of your development team's contact information using this clean color
 - This is where your output `index.html` and `style.css` files will be! :star:
 
 ## *Screenshots*
-![Screenshot of DevTeam Mock Profile](./screenshots/ss1.png)
+![Screenshot of DevTeam Mock Profile](./assets/screenshots/ss1.png)
 Responsive Flex Breakpoint            |  Queried Flex-Direction Switch
 :-------------------------:|:-------------------------:
-![Screenshot of DevTeam Mock Profile](./screenshots/ss3.png)  |  ![Screenshot of DevTeam Mock Profile](./screenshots/ss4.png)
+![Screenshot of DevTeam Mock Profile](./assets/screenshots/ss3.png)  |  ![Screenshot of DevTeam Mock Profile](./assets/screenshots/ss4.png)
 
-![Screenshot of DevTeam Command Line Prompt Questions](./screenshots/ss2.png)
+![Screenshot of DevTeam Command Line Prompt Questions](./assets/screenshots/ss2.png)
 
 ## *Contributing*
 Contributing is welcome, raise issues and submit through pull requests.
@@ -45,7 +45,7 @@ Contributing is welcome, raise issues and submit through pull requests.
 The tests in this repository are run through Jest, a dev dependency included in the JSON package. For the parent Employee constructor and the three subclasses, I wrote some simple TDD-inspired functions.
 - Run these tests with the command `npm run test` in the `/_tests` folder.
 
-![Screenshot of Jest PASS notices, 7 out of 7](/screenshots/jest.PNG)
+![Screenshot of Jest PASS notices, 7 out of 7](./assets/screenshots/jest.PNG)
 ### :movie_camera: View these tests passing in real time in [this video](https://vimeo.com/515063802).
 
 ## *Questions?*
