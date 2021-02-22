@@ -84,10 +84,10 @@ function nextEmployee() {
                     break;
                     case 'No, finish.':
                         let html = genHTML(team);
-                        fs.writeFileSync('./dist/index.html', html, 'utf8');
-                        fs.writeFileSync('./dist/style.css', css, 'utf8');
+                        fs.writeFileSync('./output/index.html', html, 'utf8');
+                        fs.writeFileSync('./output/style.css', css, 'utf8');
                         return console.log(
-                            Chalk.black.bgCyan('Your DevTeam profile is ready. Navigate to the /dist folder.')
+                            Chalk.black.bgCyan('Your DevTeam profile is ready. Navigate to the /output folder.')
                         );
         }
     })
