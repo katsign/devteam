@@ -1,5 +1,10 @@
-# DevTeam Profile Generator :email::woman:
-![GitHub license](https://img.shields.io/badge/License-MIT-orange)
+<div align="center">
+
+# DevTeam Profile Generator 📧👩
+![GitHub license](https://img.shields.io/badge/License-MIT-blue)
+
+#### 📍 [View Demo on GitHub Pages](https://katsign.github.io/devteam/) 📍
+</div>
 
 ### This command line application generates a styled webpage containing your development team's contact info and professional roles.
 
@@ -11,7 +16,7 @@
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions](#questions)
+- [Contact](#contact)
 
 ## *Description*
 Keep track of your development team's contact information using this clean color-coded interface, no coding involved. Simply invoke the app on the command line and plug in your information through a series of prompts — behind the scenes, DevTeam whips up a styled HTML page ready for deployment to your team. You'll need to follow the installation steps below to get going.
@@ -20,7 +25,6 @@ Keep track of your development team's contact information using this clean color
 ### Navigate into the repository folder on your local machine and open the built-in terminal. You will need Node.js installed to run this application.
 - On the command line, type `npm i` to pull the app's dependencies to your local. If this action is successful, a `node_modules` folder will appear in the root folder.
 - Now, you can type `node index.js` to start the application.
-
 
 ## *Usage*
 ### :movie_camera: [This video](https://vimeo.com/515063802) demonstrates the full functionality and testing of this app.
@@ -48,8 +52,10 @@ The tests in this repository are run through Jest, a dev dependency included in 
 ![Screenshot of Jest PASS notices, 7 out of 7](./assets/screenshots/jest.PNG)
 ### :movie_camera: View these tests passing in real time in [this video](https://vimeo.com/515063802).
 
-## *Questions?*
-- My Profile: [katsign](https://github.com/katsign)
+## *Contact*
+🔗 Links in Bio @[katsign](https://github.com/katsign)
+
+![Email Badge](https://img.shields.io/badge/Email%20Me-mailtokatsign%40gmail.com-d8bfd8)
 
 ---
 This project is MIT licensed. &copy; 2021
